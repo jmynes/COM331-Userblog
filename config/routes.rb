@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :posts
   get 'login', to: 'sessions#login', as: 'login'
   get 'logout', to: 'sessions#logout', as: 'logout'
   get 'auth/github', as: 'github_login'
