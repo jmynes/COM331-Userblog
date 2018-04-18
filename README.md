@@ -16,7 +16,7 @@
 * Run this to install Heroku CLI
 `npm install heroku-cli -g`
 
-* [Follow this](https://devcenter.heroku.com/articles/getting-started-with-rails5)
+* [Follow from here:](https://devcenter.heroku.com/articles/getting-started-with-rails5#deploy-your-application-to-heroku)
 
 
 # README
