@@ -1,3 +1,7 @@
+# Environment
+
+* Setup Github OAuth (see tabtasks repo)
+
 * Add this to ~/.npmrc
 
 `prefix=~/.npm-global`
@@ -8,6 +12,9 @@
 
 * Append like:
 `:$HOME/.npm-global/bin`
+
+* Run this to install Heroku CLI
+`npm install heroku-cli -g`
 
 
 # README
