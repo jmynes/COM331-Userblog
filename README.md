@@ -3,18 +3,13 @@
 * Setup Github OAuth (see tabtasks repo)
 
 * Add this to ~/.npmrc
+  * `prefix=~/.npm-global`
 
-`prefix=~/.npm-global`
-
-* Add this to .zshrc (or bash)
-
-`PATH=$HOME/.npm-global/bin:`
-
-* Append like:
-`:$HOME/.npm-global/bin`
+* Add to path in .zshrc (or bash) similiarly:
+  * `export PATH=$HOME/bin:/usr/local/bin:$HOME/.npm-global/bin:$PATH`
 
 * Run this to install Heroku CLI
-`npm install heroku-cli -g`
+  * `npm install heroku-cli -g`
 
 * [Follow from here:](https://devcenter.heroku.com/articles/getting-started-with-rails5#deploy-your-application-to-heroku)
 
