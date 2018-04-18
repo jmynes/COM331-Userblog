@@ -1,3 +1,15 @@
+* Add this to ~/.npmrc
+
+`prefix=~/.npm-global`
+
+* Add this to .zshrc (or bash)
+
+`PATH=$HOME/.npm-global/bin:`
+
+* Append like:
+`:$HOME/.npm-global/bin`
+
+
 # README
 
 This README would normally document whatever steps are necessary to get the
